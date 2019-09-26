@@ -1,0 +1,25 @@
+{
+  "name": "perforce_demo",
+  "version": "1.0.0",
+  "description": "A simple app made with the the Box Node SDK and Box View with Annotations",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "perforce",
+    "url": "p4://perforce.common-work-education.co.uk/johannes/perforce-demo"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://perforce.common-work-education.co.uk"
+  },
+  "homepage": "https://perforce.common-work-education.co.uk",
+  "dependencies": {
+    "box-node-sdk": "^1.22.0",
+    "express": "^4.16.3",
+    "mustache-express": "^1.2.7"
+  }
+}
